@@ -1,5 +1,5 @@
 # 1. Dictionaries are mutable, unordered, key value pair with no duplicate key type of data structure
-# 2. keys can of any data type except none and list
+# 2. keys can of any data type except list
 # syntax
 stud1 = {
     "name":"sahil",
@@ -43,3 +43,6 @@ nesting = {
 print(nesting.get("score").items())
 print(nesting["score"])
 print(nesting["score"]["maths"])
+# 8. syntxa to create an empty dictionary
+empty_dict = {}
+print(type(empty_dict))
